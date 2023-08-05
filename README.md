@@ -17,36 +17,63 @@
 ### Επιλογή 1: Insert
 Σε αυτή την περίπτωση το πρόγραμμα ζητάει από τον χρήστη να εισάγει έναν αριθμό από το ένα έως το έντεκα, ο οποίος δείχνει στο πρόγραμμα σε ποια οντότητα θέλει ο χρήστης να κάνει εισαγωγή στοιχείων. Στην συνέχεια, το πρόγραμμα ζητάει από τον χρήστη να δώσει τιμές για όλα τα πεδία της εκάστοτε οντότητας.
 
+![image](https://github.com/ApostolosVarelas/DataBase_use_with_java/assets/87095756/0c440a91-c5a6-4ee8-9499-f71ec82e4dfe)
+![image](https://github.com/ApostolosVarelas/DataBase_use_with_java/assets/87095756/b6f29f02-6ea0-4e41-9c15-d6c7c81672e6)
+
 ### __Επιλογή 2: Update__
 Σε αυτή την περίπτωση το πρόγραμμα ζητάει από τον χρήστη να επιλέξει ανάμεσα σε έντεκα επιλογές εκ των οποίων ο χρήστης θα επιλέξει ποια οντότητα θέλει να κάνει update τα στοιχεία. Ύστερα, θα πληκτρολογήσει αυτά τα στοιχεία.
 Παρατήρηση: Για να γίνει σωστά η διαδικασία update θα πρέπει για κάθε κατηγορία που έχει foreign key, ο αριθμός που βάζουμε να μην είναι ήδη στην εκάστοτε οντότητα του primary key.
 
+![image](https://github.com/ApostolosVarelas/DataBase_use_with_java/assets/87095756/83f3aab4-d663-4101-a13f-0a776acc2c12)
+![image](https://github.com/ApostolosVarelas/DataBase_use_with_java/assets/87095756/704d5f13-f8a0-4aea-b6c2-5d7c60edae64)
+
+
 ### __Επιλογή 3: Retrieve list of repositories__
 Σε αυτή την περίπτωση το πρόγραμμα του εμφανίζει όλα τα δεδομένα της οντότητας storage.
+
+![image](https://github.com/ApostolosVarelas/DataBase_use_with_java/assets/87095756/99a7f0d3-e52d-452e-810c-a1308b81e6d0)
 
 ### __Επιλογή 4: Retrieve a list of components per receiving batch and per storage bin__
 Σε αυτή την επιλογή το πρόγραμμα εμφανίζει στον χρήστη μία λίστα με όλα τα δεδομένα που υπάρχουν στην βάση δεδομένων για τον κάθε κάδο αποθήκευσης.
 
+![image](https://github.com/ApostolosVarelas/DataBase_use_with_java/assets/87095756/7703df52-bb73-45d2-a04f-7dcaea94dfef)
+
+
 ### __Επιλογή 5: Bin capacity recovery__
 Αυτή η επιλογή χρησιμοποιείται την εμφάνιση της διαθέσιμης χωρητικότητας και της εναπομένουσας χωρητικότητας που έχει κάθε κάδος σε κάθε αποθήκη.
 
+![image](https://github.com/ApostolosVarelas/DataBase_use_with_java/assets/87095756/cf9bd3cf-2158-447b-8aa4-d9fbb6dbd88a)
+
 ### __Επιλογή 6: Update of available and remaining capacity__
 Σε αυτή την περίπτωση το πρόγραμμα ενημερώνει την διαθέσιμη και την εναπομένουσα χωρητικότητα που έχει ο κάθε κάδος σε κάθε αποθήκη.
+
+![image](https://github.com/ApostolosVarelas/DataBase_use_with_java/assets/87095756/af5422ab-0746-49c8-88fe-f72b426b2b3a)
 
 ### __Επιλογή 7: Retrieval Employee list__
 Στην συγκεκριμένη επιλογή, το πρόγραμμα εμφανίζει μια λίστα με τα ονόματα όλων των υπαλλήλων.
 Παρατήρηση: Το πρόγραμμα θα εμφανίσει πρώτα όλους τους τους υπαλλήλους με τα στοιχεία τους και ύστερα τις διευθύνσεις.
 
+![image](https://github.com/ApostolosVarelas/DataBase_use_with_java/assets/87095756/0e400b90-c332-4b8f-ad1f-d6948e979d27)
+
 ### __Επιλογή 8: Retrieval Name Manager List__
 Σε αυτή την περίπτωση το πρόγραμμα εμφανίζει στον χρήστη μια λίστα η οποία περιέχει τα ονόματα όλων των Manager της εταιρείας.
+
+![image](https://github.com/ApostolosVarelas/DataBase_use_with_java/assets/87095756/bcf5a8eb-4243-4175-be89-c701ffc63d53)
 
 ### __Επιλογή 9: Recovery of Component List__
 Στη συγκεκριμένη περίπτωση το πρόγραμμα εμφανίζει στον χρήστη τα εξαρτήματα που είναι <<δυνητικά>> μέρη συναρμολογημένων επιμέρους εξαρτημάτων, ταξινομημένα με βάση τον κωδικό των επιμέρους συναρμολογημένων τμημάτων.
 
+![image](https://github.com/ApostolosVarelas/DataBase_use_with_java/assets/87095756/3fdbad98-18bb-4688-819f-00797d1de48a)
+
 ### __Επιλογή 10: Retrieve List of new orders__
 Στην περίπτωση αυτή το πρόγραμμα εμφανίζει όλους τους manager ταξινομημένους αλφαβητικά μαζί με τον αριθμό όλων των εκ νέου παραγγελιών τους.
 
+![image](https://github.com/ApostolosVarelas/DataBase_use_with_java/assets/87095756/87703819-1abb-4cac-8916-25f3a21f8fed)
+
 ### __Επιλογή 11:__
 Στην τελευταία αυτή επιλογή το πρόγραμμα αρχικά ζητάει από τον χρήστη το τηλέφωνο υπαλλήλου που θέλει να διαγράψει και στην συνέχεια ζητάει τον κωδικό του υπαλλήλου. Αν αυτός ο υπάλληλος έχει μόνο ένα τηλέφωνο τότε δεν μπορεί να το διαγράψει, εμφανίζει ανάλογο μήνυμα και κάνει έξοδο από την επιλογή. Αν το τηλέφωνο αυτό δεν υπάρχει, τότε ενημερώνει τον χρήστη. Αν το τηλέφωνο υπάρχει και ο συγκεκριμένος υπάλληλος έχει πάνω από δύο τηλέφωνα, τότε το διαγράφει και εμφανίζει αντίστοιχο μήνυμα στον χρήστη.
+
+![image](https://github.com/ApostolosVarelas/DataBase_use_with_java/assets/87095756/a8af5f50-fcc6-43c9-a935-4bb6f310e8e6)
+![image](https://github.com/ApostolosVarelas/DataBase_use_with_java/assets/87095756/e437a126-bf89-4d46-968f-b7c84f766dc9)
 
 Μετά από την ολοκλήρωση κάθε επιλογή ζητάει από τον χρήστη να πατήσει <<Enter>> ώστε να επιστρέψει στο μενού επιλογών και διαγράφει όσα έχει εμφανίσει μέχρι εκείνη την στιγμή.
